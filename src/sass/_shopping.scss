@@ -1,0 +1,51 @@
+.shopping {
+  padding-top: 2rem;
+  text-align: center;
+
+  &__orders {
+    margin: 3rem;
+    margin-top: 1rem;
+    height: 900px;
+    overflow: scroll;
+  }
+}
+.shopping h1 {
+  color: #f38e82;
+}
+
+.recipe__stuff {
+  position: relative;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  border-bottom: 2px solid rgb(223, 223, 223);
+  display: flex;
+
+  &__description {
+    padding: 0.25rem 0;
+    margin-right: 2.3rem;
+    text-align: start;
+  }
+
+  &__icon {
+    cursor: pointer;
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    fill: $color-primary;
+    right: 0.3rem;
+    flex: 0 0 auto;
+    margin: 0.1rem;
+  }
+}
+.recipe__stuff input {
+  text-align: center;
+  width: 7rem;
+  padding: 0.6rem 1rem;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border: 2px solid rgb(223, 223, 223) !important;
+  border-bottom: none !important;
+  margin-right: 2rem;
+}
